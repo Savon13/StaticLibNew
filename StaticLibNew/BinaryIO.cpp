@@ -52,7 +52,7 @@ namespace BinaryIO {
         std::string value(size, '\0');
         std::copy(data.begin() + offset, data.begin() + offset + size, value.begin());
         offset += size;
-
+        ///ÄÀ
         return value;
     }
 }
